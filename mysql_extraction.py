@@ -24,7 +24,7 @@ db_endpoint = "apartment-rentals.c1yklxlrd3gk.us-east-1.rds.amazonaws.com"
 db_username = "admin"
 db_password = "Etl123$$"
 db_name = "rental_apartments"
-s3_bucket = "nl-aws-de-labs"
+s3_bucket = "nl-aws-de-labs-shijinms"
 
 if '--date_filter' in sys.argv:
     optional_args = getResolvedOptions(sys.argv, ["date_filter"])
